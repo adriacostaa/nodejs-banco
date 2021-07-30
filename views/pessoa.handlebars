@@ -1,0 +1,8 @@
+<h1>Listar Pessoas</h1>
+
+{{#each pessoas}}
+    Nome: {{nome}}<br/>
+    E-mail: {{email}}<br/>
+    Cadastado:{{#formatDate createdAt}} {{/formatDate}}<br/>
+    <hr>
+{{/each}}
